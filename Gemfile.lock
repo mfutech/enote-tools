@@ -1,0 +1,28 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    evernote-thrift (1.25.2)
+    evernote_oauth (0.2.3)
+      evernote-thrift
+      oauth (>= 0.4.1)
+    hashie (5.0.0)
+    oauth (1.1.0)
+      oauth-tty (~> 1.0, >= 1.0.1)
+      snaky_hash (~> 2.0)
+      version_gem (~> 1.1)
+    oauth-tty (1.0.5)
+      version_gem (~> 1.1, >= 1.1.1)
+    snaky_hash (2.0.1)
+      hashie
+      version_gem (~> 1.1, >= 1.1.1)
+    version_gem (1.1.1)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  evernote-thrift (~> 1.25)
+  evernote_oauth (~> 0.2.3)
+
+BUNDLED WITH
+   2.3.25
